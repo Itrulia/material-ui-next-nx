@@ -14,27 +14,27 @@ const nextConfig = {
   },
 
   compiler: {
-    emotion: true,
+    // emotion: true,
     /*
      * I tried this, but it didn't work
      */
-    // emotion: {
-    //   sourceMap: true,
-    //   importMap: {
-    //     '@mui/material': {
-    //       styled: {
-    //         canonicalImport: ['@emotion/styled', 'default'],
-    //         styledBaseImport: ['@mui/material', 'styled'],
-    //       },
-    //     },
-    //     '@mui/material/styles': {
-    //       styled: {
-    //         canonicalImport: ['@emotion/styled', 'default'],
-    //         styledBaseImport: ['@mui/material/styles', 'styled'],
-    //       },
-    //     },
-    //   },
-    // },
+    emotion: {
+      sourceMap: true,
+      importMap: {
+        '@mui/material': {
+          styled: {
+            canonicalImport: ['@emotion/styled', 'default'],
+            styledBaseImport: ['@mui/material', 'styled'],
+          },
+        },
+        '@mui/material/styles': {
+          styled: {
+            canonicalImport: ['@emotion/styled', 'default'],
+            styledBaseImport: ['@mui/material/styles', 'styled'],
+          },
+        },
+      },
+    },
   },
 };
 

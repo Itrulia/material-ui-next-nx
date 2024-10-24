@@ -60,5 +60,6 @@
       "library": {}
     }
   },
-  "nxCloudAccessToken": "Yzk4ZGY1ZmMtNTBiYS00N2E4LWIzYzgtYTg5MjViZjU5YTFhfHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "Yzk4ZGY1ZmMtNTBiYS00N2E4LWIzYzgtYTg5MjViZjU5YTFhfHJlYWQtd3JpdGU=",
+  "useLegacyCache": true
 }

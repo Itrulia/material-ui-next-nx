@@ -10,6 +10,8 @@ export const StyledEventWebsite = styled('div')`
   }
 `;
 
+console.log(StyledPageWebsite);
+
 export function EventWebsite(props: PropsWithChildren<{ a?: string }>) {
   return (
     <StyledEventWebsite>
