@@ -49,3 +49,7 @@ The issue that comes with this, is that one loses the interface of the theme and
 ### Moving the component selector to the app
 
 When moving the component selector to the application than the library, the application works as expected. Which leads me to believe this is a problem with `Nx`.
+
+### Downgrading Next
+
+Downgrading Next to `~13.4.19` works as expected, `~13.5.0` does not work anymore.
